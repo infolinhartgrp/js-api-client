@@ -1099,6 +1099,7 @@ export namespace Typeform {
    */
   type Type = 'date' | 'dropdown' | 'email' | 'file_upload' | 'group' | 'legal' | 'long_text' | 'multiple_choice' | 'number'
     | 'opinion_scale' | 'payment' | 'picture_choice' | 'rating' | 'short_text' | 'statement' | 'website' | 'yes_no' | 'phone_number'
+    | 'matrix'
   /**
    * Validations of a field.
    */
@@ -1185,7 +1186,8 @@ export namespace Typeform {
     attachment?: Attachment
   }
   /**
-   * Typeform Workspace object.
+   * 
+   form Workspace object.
    */
   export interface Workspace {
     /**
