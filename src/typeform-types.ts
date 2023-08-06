@@ -29,7 +29,7 @@ export namespace Typeform {
       /**
        * Logic Jump "to" option you are using.
        */
-      type?: 'field' | 'hidden' | 'thankyou'
+      type?: 'field' | 'hidden' | 'thankyou' | 'outcome'
       /**
        * The "ref" value for the field, Hidden Field, or thank you screen the Logic Jump leads to.
        */
@@ -172,7 +172,7 @@ export namespace Typeform {
     /**
      * Object that defines the field type and value to evaluate with the operator.
      */
-    vars?: {
+    vars?: ({
       /**
        * Type of value the condition object refers to.
        */
@@ -181,7 +181,7 @@ export namespace Typeform {
        * Value to check for in the "type" field to evaluate with the operator.
        */
       value?: any
-    }[]
+    } | Condition)[]
   }
   /**
    * Generic document.
