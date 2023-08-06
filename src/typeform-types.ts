@@ -168,7 +168,7 @@ export namespace Typeform {
      */
     op?: 'begins_with' | 'ends_with' | 'contains' | 'not_contains' | 'lower_than' | 'lower_equal_than' | 'greater_than'
     | 'greater_equal_than' | 'is' | 'is_not' | 'equal' | 'not_equal' | 'always' | 'on' | 'not_on' | 'earlier_than' | 'earlier_than_or_on'
-    | 'later_than' | 'later_than_or_on'
+    | 'later_than' | 'later_than_or_on' | 'and'
     /**
      * Object that defines the field type and value to evaluate with the operator.
      */
