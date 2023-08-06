@@ -46,7 +46,7 @@ export namespace Typeform {
       /**
        * Variable value to use in calculation.
        */
-      value?: 'score' | 'price'
+      value?: 'score' | 'price' | 'winning_outcome_id'
     }
     /**
      * Specifies the numeric value to use in the calculation for the `score` or `price` variable.
