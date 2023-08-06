@@ -59,7 +59,7 @@ export namespace Typeform {
       /**
        * Numeric value to use in calculation.
        */
-      value?: number
+      value?: number | string
     }
   }
   export namespace API {
