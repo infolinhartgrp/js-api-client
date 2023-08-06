@@ -794,7 +794,7 @@ export namespace Typeform {
       /**
        * Specify whether the form should reload or redirect to another URL when respondents click the 'Submit' button. PRO+ feature.
        */
-      button_mode?: 'reload' | 'redirect'
+      button_mode?: 'reload' | 'redirect' | 'default_redirect'
       /**
        * URL where the typeform should redirect after submission, if you specified "redirect" for `button_mode`.
        */
