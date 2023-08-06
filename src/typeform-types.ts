@@ -7,7 +7,7 @@ export namespace Typeform {
     /**
      * Behavior the Logic Jump will take.
      */
-    action?: 'jump' | 'add' | 'subtract' | 'multiply' | 'divide'
+    action?: 'jump' | 'add' | 'subtract' | 'multiply' | 'divide' | 'set'
     /**
      * Properties that further specify how the Logic Jump will behave.
      */
